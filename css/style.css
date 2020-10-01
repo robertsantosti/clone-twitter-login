@@ -132,12 +132,14 @@ footer a:first-child::after {
 .darkmode {
   background-color: #000;
   filter: hue-rotate(180deg) invert(100%);
+  transition: 1s all;
 }
 
 .btn-icon {
   padding: 10px 15px;
   border-radius: 10px;
   opacity: 0.85;
+  border: 0;
 }
 
 .btn-dark {
